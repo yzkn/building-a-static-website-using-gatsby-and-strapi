@@ -55,3 +55,12 @@ $ npm install --save gatsby-source-strapi
 `gatsby-config.js` に追記する。
 
 Index ページ（ `blog/src/pages/index.js` ）を修正する。
+
+記事詳細ページ（ `blog/src/templates/article.js` ）を作成する。
+
+`blog/gatsby-node.js` に追記する。
+
+```
+$ cd Documents/GitHub/building-a-static-website-using-gatsby-and-strapi/tutorial/cms; npm run develop
+$ cd Documents/GitHub/building-a-static-website-using-gatsby-and-strapi/tutorial/blog ; gatsby develop
+```

@@ -26,10 +26,10 @@
       "plugin": "upload",
       "required": false
     },
-    "authors": {
+    "author": {
       "plugin": "users-permissions",
-      "collection": "user",
-      "via": "article"
+      "model": "user",
+      "via": "articles"
     }
   }
 }

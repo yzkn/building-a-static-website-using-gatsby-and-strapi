@@ -53,9 +53,9 @@
       "plugin": "users-permissions",
       "configurable": false
     },
-    "article": {
-      "via": "authors",
-      "model": "article"
+    "articles": {
+      "via": "author",
+      "collection": "article"
     }
   }
 }
